@@ -5,16 +5,15 @@
    Code:
 
    ```
-   p:("calculate the gcd\nof a and b",id:p0)
+   t:("calculate the gcd\nof a and b",id:p0)
    p:("find remainder\nr of a/b",id:p1,from:{p0})
    d:("r=0?",id:p2,from:{p1});p:("a <-- b\nb <-- r",id:p3,from:{p2,l:no},to:{p1})
-   p:("the gcd is b",from:{p2,label:yes})
-   
+   t:("the gcd is b",from:{p2,label:yes})
    ```
 
    SVG:
 
-   ![output](docs/_image/output.svg)
+   ![file (11)](docs/_image/file%20(11).svg)
 
 2. Example 2
 
