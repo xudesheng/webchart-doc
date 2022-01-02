@@ -1,0 +1,58 @@
+<svg width='400' height='1100' xmlns='http://www.w3.org/2000/svg'>
+<path d="M 260 15.000001 h 80 A 30.000002 15.000001 45 0 1 370 30.000002 v 40  A 30.000002 15.000001 -45 0 1 340 85 h -80 A 30.000002 15.000001 45 0 1 230 70 v -40  A 30.000002 15.000001 -45 0 1 260 15.000001 Z" stroke="black" fill="none"/>
+<text x="286.21667" y="54" font-size="1em" fill="black" >start</text>
+<path d="M 230 115 h 140 v 70 h -140 L 230 115" stroke="black" fill="none"/>
+<text x="257.68167" y="146" font-size="1em" fill="black" >Acquire field</text>
+<text x="286.675" y="162" font-size="1em" fill="black" >data</text>
+<path d="M 230 215 h 140 v 70 h -140 L 230 215" stroke="black" fill="none"/>
+<text x="256.89166" y="246" font-size="1em" fill="black" >Compute the </text>
+<text x="249.99167" y="262" font-size="1em" fill="black" >state estimation</text>
+<path d="M 230 315 h 140 v 70 h -140 L 230 315" stroke="black" fill="none"/>
+<text x="274.9" y="346" font-size="1em" fill="black" >Select a</text>
+<text x="260.9" y="362" font-size="1em" fill="black" >contingency</text>
+<path d="M 230 415 h 140 v 70 h -140 L 230 415" stroke="black" fill="none"/>
+<text x="258.89166" y="438" font-size="1em" fill="black" >Compute the</text>
+<text x="263.45667" y="454" font-size="1em" fill="black" >power flow</text>
+<text x="274.20834" y="470" font-size="1em" fill="black" >solution</text>
+<path d="M 230 515 h 140 v 70 h -140 L 230 515" stroke="black" fill="none"/>
+<text x="228.69168" y="546" font-size="1em" fill="black" >Check the voltage and</text>
+<text x="243.33334" y="562" font-size="1em" fill="black" >power constraints</text>
+<path d="M 230 615 h 140 v 70 h -140 L 230 615" stroke="black" fill="none"/>
+<text x="267.79166" y="630" font-size="1em" fill="black" >Check the</text>
+<text x="266.225" y="646" font-size="1em" fill="black" >equipment</text>
+<text x="265.325" y="662" font-size="1em" fill="black" >constraints</text>
+<text x="278.76834" y="678" font-size="1em" fill="black" >i=i + 1</text>
+<path d="M 300 715 L 370 750 L 300 785 L 230 750  z" stroke="black" fill="none"/>
+<text x="275.43335" y="754" font-size="1em" fill="black" >i &lt;= Ne</text>
+<path d="M 30.000002 815 h 140 v 70 h -140 L 30.000002 815" stroke="black" fill="none"/>
+<text x="61.583336" y="846" font-size="1em" fill="black" >Generate an</text>
+<text x="81.78333" y="862" font-size="1em" fill="black" >alarm</text>
+<path d="M 300 815 L 370 850 L 300 885 L 230 850  z" stroke="black" fill="none"/>
+<text x="252.66667" y="846" font-size="1em" fill="black" >Any constraint</text>
+<text x="270.675" y="862" font-size="1em" fill="black" >violated?</text>
+<path d="M 300 915 L 370 950 L 300 985 L 230 950  z" stroke="black" fill="none"/>
+<text x="259.11667" y="946" font-size="1em" fill="black" >Contingency</text>
+<text x="264.65833" y="962" font-size="1em" fill="black" >list empty?</text>
+<path d="M 260 1015 h 80 A 30.000002 15.000001 45 0 1 370 1030 v 40  A 30.000002 15.000001 -45 0 1 340 1085 h -80 A 30.000002 15.000001 45 0 1 230 1070 v -40  A 30.000002 15.000001 -45 0 1 260 1015 Z" stroke="black" fill="none"/>
+<text x="287.11667" y="1054" font-size="1em" fill="black" >End</text>
+<path d="M 300 85 L 300 115 L 297 107 L 303 107 L 300 115" fill="none" stroke="black" stroke-width="1" />
+<path d="M 300 185 L 300 215 L 297 207 L 303 207 L 300 215" fill="none" stroke="black" stroke-width="1" />
+<path d="M 300 285 L 300 315 L 297 307 L 303 307 L 300 315" fill="none" stroke="black" stroke-width="1" />
+<path d="M 300 385 L 300 415 L 297 407 L 303 407 L 300 415" fill="none" stroke="black" stroke-width="1" />
+<path d="M 300 485 L 300 515 L 297 507 L 303 507 L 300 515" fill="none" stroke="black" stroke-width="1" />
+<path d="M 300 585 L 300 615 L 297 607 L 303 607 L 300 615" fill="none" stroke="black" stroke-width="1" />
+<path d="M 300 685 L 300 715 L 297 707 L 303 707 L 300 715" fill="none" stroke="black" stroke-width="1" />
+<path d="M 370 750 L 389 750 L 389 650 L 370 650 L 378 647 L 378 653 L 370 650" fill="none" stroke="black" stroke-width="1" />
+<text x="372" y="746" fill="black" font-size="0.8em" font-family="sans-serif">Yes</text>
+<path d="M 230 850 L 170 850 L 178 847 L 178 853 L 170 850" fill="none" stroke="black" stroke-width="1" />
+<text x="190.04666" y="845.2" fill="black" font-size="0.8em" font-family="sans-serif">Yes</text>
+<path d="M 300 785 L 300 815 L 297 807 L 303 807 L 300 815" fill="none" stroke="black" stroke-width="1" />
+<text x="278.9" y="801" fill="black" font-size="0.8em" font-family="sans-serif">NO</text>
+<path d="M 100 885 L 100 950 L 230 950 L 222 947 L 222 953 L 230 950" fill="none" stroke="black" stroke-width="1" />
+<path d="M 300 885 L 300 915 L 297 907 L 303 907 L 300 915" fill="none" stroke="black" stroke-width="1" />
+<text x="302" y="900" fill="black" font-size="0.8em" font-family="sans-serif">NO</text>
+<path d="M 370 950 L 396.33334 950 L 396.33334 350 L 370 350 L 378 347 L 378 353 L 370 350" fill="none" stroke="black" stroke-width="1" />
+<text x="372" y="946" fill="black" font-size="0.8em" font-family="sans-serif">No</text>
+<path d="M 300 985 L 300 1015 L 297 1007 L 303 1007 L 300 1015" fill="none" stroke="black" stroke-width="1" />
+<text x="302" y="1000" fill="black" font-size="0.8em" font-family="sans-serif">Yes</text>
+</svg>

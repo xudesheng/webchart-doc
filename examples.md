@@ -50,4 +50,22 @@ You can try all examples at [webchart.io](https://webchart.io)
 
    ![output](docs/_image/output-0986938.svg)
 
-4. 
+4. Example 4:
+
+   Code:
+
+   ```
+   ;t:("start",id:p1)
+   ;p:("Acquire field\ndata",f:{p1},id:p2)
+   ;p:("Compute the \nstate estimation",id:p3,from:{p2})
+   ;p:("Select a\ncontingency",id:p4,f:{p3})
+   ;p:("Compute the\npower flow\nsolution",id:p5,f:{p4})
+   ;p:("Check the voltage and\npower constraints",id:p6,f:{p5})
+   ;p:("Check the\nequipment\nconstraints\ni=i + 1",id:p7,f:{p6})
+   ;d:("i <= Ne",id:p8,f:{p7},to:{p7,label_from:Yes})
+   p:("Generate an\nalarm",id:p10,f:{p9,l:Yes});d:("Any constraint\nviolated?",id:p9,f:{p8,lf:NO})
+   ;d:("Contingency\nlist empty?",id:p12,f:{p10},f:{p9,label:NO},to:{p4,lf:No})
+   ;t:("End",f:{p12,label:Yes})
+   ```
+
+   ![output](docs/_image/output-1104787.svg)
