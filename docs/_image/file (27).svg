@@ -1,0 +1,22 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+<path d="M 30.000002 15.000001 h 140 v 70 h -140 L 30.000002 15.000001" stroke="black" fill="none"></path>
+<text x="46.250004" y="46" font-size="1em" fill="black">calculate the gcd</text>
+<text x="68.348335" y="62" font-size="1em" fill="black">of a and b</text>
+<path d="M 30.000002 115 h 140 v 70 h -140 L 30.000002 115" stroke="black" fill="none"></path>
+<text x="52.79" y="146" font-size="1em" fill="black">find remainder</text>
+<text x="77.00667" y="162" font-size="1em" fill="black">r of a/b</text>
+<path d="M 100 215 L 170 250 L 100 285 L 30.000002 250  z" stroke="black" fill="none"></path>
+<text x="85.275" y="254" font-size="1em" fill="black">r=0?</text>
+<path d="M 230 215 h 140 v 70 h -140 L 230 215" stroke="black" fill="none"></path>
+<text x="278.60834" y="246" font-size="1em" fill="black">a &lt;-- b</text>
+<text x="279.49167" y="262" font-size="1em" fill="black">b &lt;-- r</text>
+<path d="M 30.000002 315 h 140 v 70 h -140 L 30.000002 315" stroke="black" fill="none"></path>
+<text x="63.333336" y="354" font-size="1em" fill="black">the gcd is b</text>
+<path d="M 100 85 L 100 115 L 97 107 L 103 107 L 100 115" fill="none" stroke="black" stroke-width="1"></path>
+<path d="M 100 185 L 100 215 L 97 207 L 103 207 L 100 215" fill="none" stroke="black" stroke-width="1"></path>
+<path d="M 170 250 L 230 250 L 222 247 L 222 253 L 230 250" fill="none" stroke="black" stroke-width="1"></path>
+<text x="193.6" y="245.2" fill="black" font-size="0.8em" font-family="sans-serif">no</text>
+<path d="M 300 215 L 300 150 L 170 150 L 178 147 L 178 153 L 170 150" fill="none" stroke="black" stroke-width="1"></path>
+<path d="M 100 285 L 100 315 L 97 307 L 103 307 L 100 315" fill="none" stroke="black" stroke-width="1"></path>
+<text x="102" y="300" fill="black" font-size="0.8em" font-family="sans-serif">yes</text>
+</svg>

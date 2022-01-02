@@ -1,0 +1,9 @@
+<svg width="600" height="100" xmlns="http://www.w3.org/2000/svg">
+<path d="M 30.000002 15.000001 h 140 v 70 h -140 L 30.000002 15.000001" stroke="black" fill="none"></path>
+<text x="86.21667" y="54" font-size="1em" fill="black">start</text>
+<path d="M 430 15.000001 h 140 v 70 h -140 L 430 15.000001" stroke="black" fill="none"></path>
+<text x="488.45" y="54" font-size="1em" fill="black">end</text>
+<path d="M 170 50 L 430 50 L 422 47 L 422 53 L 430 50" fill="none" stroke="black" stroke-width="1"></path>
+<text x="172" y="46" fill="black" font-size="0.8em" font-family="sans-serif">pray</text>
+<text x="393.56" y="46" fill="black" font-size="0.8em" font-family="sans-serif">lucky</text>
+</svg>

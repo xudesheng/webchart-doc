@@ -1,0 +1,7 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+<path d="M 30.000002 15.000001 h 140 v 70 h -140 L 30.000002 15.000001" stroke="black" fill="none"></path>
+<text x="77.333336" y="54" font-size="1em" fill="black">Design</text>
+<path d="M 230 115 h 140 v 70 h -140 L 230 115" stroke="black" fill="none"></path>
+<text x="264.675" y="154" font-size="1em" fill="black">Play Game</text>
+<path d="M 170 50 L 300 50 L 300 115 L 297 107 L 303 107 L 300 115" fill="none" stroke="black" stroke-width="1"></path>
+</svg>

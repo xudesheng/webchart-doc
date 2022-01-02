@@ -1,0 +1,8 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+<path d="M 260 15.000001 h 80 A 30.000002 15.000001 45 0 1 370 30.000002 v 40  A 30.000002 15.000001 -45 0 1 340 85 h -80 A 30.000002 15.000001 45 0 1 230 70 v -40  A 30.000002 15.000001 -45 0 1 260 15.000001 Z" stroke="black" fill="none"></path>
+<text x="284.88333" y="54" font-size="1em" fill="black">Start</text>
+<path d="M 30.000002 115 h 140 v 70 h -140 L 30.000002 115" stroke="black" fill="none"></path>
+<text x="74.78333" y="154" font-size="1em" fill="black">Let's go</text>
+<path d="M 430 215 h 140 v 70 h -140 L 430 215" stroke="black" fill="none"></path>
+<text x="468.23334" y="254" font-size="1em" fill="black">What else</text>
+</svg>
