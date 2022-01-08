@@ -147,6 +147,15 @@ p:("Design", to:{p2})
 
 <img src="docs/_image/file%20(21).svg" alt="file (21)" style="zoom:67%;" />
 
+Both `from` and `to` can be simplified when there is only one element, the `id`.  For example:
+
+```
+p:("Design",id:p1)
+;p:("Play Game", f:p1)
+```
+
+The `f:p` equals to `from:{p1}`. The same rule applies to the `to` element.
+
 Each `From` or `To` element can have different elements too, which will be explained later.
 
 ### `Stroke` and `Fill`
